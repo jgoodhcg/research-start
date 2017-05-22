@@ -1,0 +1,8 @@
+gvsu-redux:
+  image: node:latest
+  container_name: gvsu-redux-container
+  working_dir: /app
+  ports:
+    - 3000:3000
+  volumes:
+    - .:/app
