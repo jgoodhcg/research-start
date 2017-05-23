@@ -1,24 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import ItemList from './components/ItemList';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import { Provider } from 'react-redux'
-import { createStore } from 'redux'
-import todoApp from './reducers/'
+import { createStore, applyMiddleware } from 'redux'
+import thunk from 'redux-thunk';
+import { createLogger } from 'redux-logger'
+import rootReducer from './reducers/'
 
 // Needed for onTouchTap
 // http://stackoverflow.com/a/34015469/988941
 injectTapEventPlugin();
 
-let store = createStore(todoApp)
+const logger = createLogger({});
+
+let store = createStore(rootReducer, applyMiddleware(thunk, logger))
 
 const Wrapped = () => (
     <Provider store={store}>
         <MuiThemeProvider>
-            <App />
+            <ItemList />
         </MuiThemeProvider>
     </Provider>
 );
