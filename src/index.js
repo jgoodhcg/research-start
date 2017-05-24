@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ItemList from './components/ItemList';
+import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 import injectTapEventPlugin from 'react-tap-event-plugin';
@@ -22,7 +22,7 @@ let store = createStore(rootReducer, applyMiddleware(thunk, logger))
 const Wrapped = () => (
     <Provider store={store}>
         <MuiThemeProvider>
-            <ItemList />
+            <App />
         </MuiThemeProvider>
     </Provider>
 );

@@ -1,10 +1,14 @@
 import { combineReducers } from 'redux';
-import { items, itemsHasErrored, itemsIsLoading } from './items';
+import { libraryData, dataHasErrored, dataIsLoading } from './libraryData';
+import { search } from './search';
+import { selected } from './selected';
 
 const rootReducer = combineReducers({
-    items,
-    itemsHasErrored,
-    itemsIsLoading
+    libraryData,
+    dataHasErrored,
+    dataIsLoading,
+    search,
+    selected
 });
 
 export default rootReducer

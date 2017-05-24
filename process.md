@@ -16,6 +16,13 @@
 - research [thunk](https://medium.com/@stowball/a-dummys-guide-to-redux-and-thunk-in-react-d8904a7005d3)
 - add [logger](https://github.com/evgenyrodionov/redux-logger)
 
+**Fetch API**
+- attempted to use the fetch api and ran into this error:
 
+```
+Fetch API cannot load https://prod.library.gvsu.edu/labs/researchstart/researchstart.json. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://gvsulibrary.com:3000' is therefore not allowed access. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+```
 
+As a security feature it seems browsers enforce that javascript Fetch api or XMLHTTP requests use a true origin value for whatever domain is running the script. When a server does not have `Access-Control-Allow-Origin` set for that origin value in the request then it will not return the resource. The response in this case was a `304`. CURL and A reglar browser GET request work for the resource because curl does not place an origin domain and the browser uses the domain for the request as the origin.  
 
+**Solution:** temporarily host a copy of the file locally. If the script were to be served from the same domain as the resource it would work fine, if not then the `Access-Control-Allow-Origin` would have to be set for whatever domain it was hosted on.

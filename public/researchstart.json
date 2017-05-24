@@ -1,0 +1,1094 @@
+{
+	"ACC": {
+		"Subject":"Accounting",
+		"Librarian": {
+			"Name":"Cara Cadena",
+			"Email":"cadenac@gvsu.edu",
+			"Phone":"(616) 331-7337",
+			"Office":"126A DeVos",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/25804/profiles/22222/MLAphoto.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/accounting",
+		"Database1": {
+			"Name":"Mergent Online",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://www.mergentonline.com/compsearch.asp",
+			"Description":"Full company details, annual reports, 15 years of financials, company history, long term debt, SEC filings, country reports. Private Companies: use Private Company Search tab."
+		},
+		"Database2": {
+			"Name":"Business Insights: Global",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://infotrac.galegroup.com/itweb/lom_gvalleysu?db=BIG",
+			"Description":"Business Insights: Global combines an international perspective and sophisticated research tools with convenient access to a range of comprehensive learning materials. Using case studies, statistical data sources, news articles, academic journals, and topical reference materials organized by country, company, and industry, this resource will be especially useful to business faculty and students and to Michigan businesses interested in expansion."
+		},
+		"Database3": {
+			"Name":"Conference Board Research Online Collection",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://www.conference-board.org/ea/index.cfm",
+			"Description":"Research reports on issues in business management and global economics. This source includes studies of Fortune 500 companies. Access to webcasts and PowerPoints of business presentations are part of this collection."
+		}
+	},
+	"CAP": {
+		"Subject":"Advertising and Public Relations",
+		"Librarian": {
+			"Name":"Kim Ranger",
+			"Email":"rangerk@gvsu.edu",
+			"Phone":"(616) 331-2633",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/31/profiles/327/Kim_toondoo_Nov_2014.png"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/cap",
+		"Database1": {
+			"Name":"MINTEL Academic",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://academic.mintel.com",
+			"Description":"A U.K. database providing consumer market reports from Europe and the U.S. Strategies for reaching target market audiences in the following industry areas: food and drink, consumer goods, retail, finance, leisure and travel. You must register to use this database and sign in each time you use it."
+		},
+		"Database2": {
+			"Name":"Plunkett Research Online",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://www.plunkettresearch.com/login.aspx",
+			"Description":"Industry statistics, trends, & in-depth analysis of top companies."
+		},
+		"Database3": {
+			"Name":"WARC (World Advertising Research Center)",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://www.warc.com/security/login/autologin.aspx",
+			"Description":"Advertising database includes case studies, best practices, market intelligence, major brands, ad/spend statistics, demographics, & campaign videos in all areas of marketing communications."
+		}
+	},
+	"AAA": {
+		"Subject":"African/African-American Studies",
+		"Librarian": {
+			"Name":"Lindy Scripps-Hoekstra",
+			"Email":"scrippsl@gvsu.edu",
+			"Phone":"(616) 331-5073",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/4580/profiles/2589/updated_head_shot_cropped.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/aas",
+		"Database1": {
+			"Name":"African American Experience",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://africanamerican2.abc-clio.com/search",
+			"Description":"The African American Experience (AAE) is a full-text resource exploring the history and culture of African Americans, as well as the greater Black Diaspora. Includes research titles, slave narratives, images, primary sources, and vetted Web sites."
+		},
+		"Database2": {
+			"Name":"Black Studies Center",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://bsc.chadwyck.com",
+			"Description":"Black Studies Center includes scholarly essays, recent periodicals, historical newspaper articles, images, and film clips. It combines several Black Studies databases: Schomburg Studies on the Black Experience, International Index to Black Periodicals (IIBP), historical black newspapers, and the Black Literature Index."
+		},
+		"Database3": {
+			"Name":"Black Thought and Culture",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://bltc.alexanderstreet.com",
+			"Description":"A collection of approximately 100,000 pages of non-fiction writings by major American black leaders."
+		}
+	},
+	"ANT": {
+		"Subject":"Anthropology",
+		"Librarian": {
+			"Name":"Emily Frigo",
+			"Email":"frigoe@gvsu.edu",
+			"Phone":"(616) 331-7343",
+			"Office":"430 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/2778/profiles/14678/Emily_Frigo_photo_2015.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/anthropology",
+		"Database1": {
+			"Name":"Anthropology Plus",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=ant",
+			"Description":"Anthropology Plus will help you find national and international, English and non-English journal articles and sometimes other types of documents in the fields of anthropology, archaeology, ethnology, folklore, and related fields of study, going back to the early 1800's up to the present time. Only 5 people at a time can access this information source."
+		},
+		"Database2": {
+			"Name":"AnthroSource",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://anthrosource.onlinelibrary.wiley.com",
+			"Description":"AnthroSource provides access to the full text of all peer-reviewed journals, newsletters, and bulletins published by the American Anthropological Association. Most materials date back to the last third of the 1900s."
+		},
+		"Database3": {
+			"Name":"eHRAF World Cultures",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://ehrafWorldCultures.yale.edu",
+			"Description":"eHRAF World Cultures will help you find paragraphs in English from thousands of online books on all aspects of the cultural and social life of cultures and ethnic groups from all over the world."
+		}
+	},
+	"ARA": {
+		"Subject":"Arabic",
+		"Librarian": {
+			"Name":"Lindy Scripps-Hoekstra",
+			"Email":"scrippsl@gvsu.edu",
+			"Phone":"(616) 331-5073",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/4580/profiles/2589/updated_head_shot_cropped.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/arabic",
+		"Database1": {
+			"Name":"Oxford Islamic Studies Online",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://www.oxfordislamicstudies.com",
+			"Description":"An encyclopedic reference source for information on Islam. It features the Oxford Encyclopedia of the Islamic World, the Oxford Encyclopedia of the Modern Islamic World, the Islamic World: Past and Present, the Oxford Dictionary of Islam, the Oxford History of Islam, and What Everyone Needs to Know About Islam. Includes Qur'anic texts."
+		},
+		"Database2": {
+			"Name":"Linguistics and Language Behavior Abstracts (LLBA) ",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/llbashell/advanced?accountid=39473",
+			"Description":"Linguistics and Language Behavior Abstracts (LLBA) contains abstracts and indexing for articles, books, and other scholarly materials related to linguistics and its sub-disciplines. Coverage is from 1973 to the present."
+		},
+		"Database3": {
+			"Name":"Academic OneFile",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://infotrac.galegroup.com/itweb/lom_gvalleysu?db=AONE",
+			"Description":"Academic OneFile offers articles from a variety of disciplines, including the physical sciences, technology, medicine, social sciences, theology, and literature. Articles come from a variety of sources, including newspapers, reference sources, and academic journals. Includes full-text coverage of the New York times from 1995 to present."
+		}
+	},
+	"ART": {
+		"Subject":"Art and Design",
+		"Librarian": {
+			"Name":"Emily Frigo",
+			"Email":"frigoe@gvsu.edu",
+			"Phone":"(616) 331-7343",
+			"Office":"430 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/2778/profiles/14678/Emily_Frigo_photo_2015.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/art",
+		"Database1": {
+			"Name":"Art Abstracts and Retrospective",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=aax,air",
+			"Description":"Art Full Text and Retrospective indexes more than 500 worldwide publications covering the fine, decorative and commercial arts, crafts and media as far back as 1929."
+		},
+		"Database2": {
+			"Name":"ARTstor",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://library.artstor.org",
+			"Description":"ARTstor is a digital library of nearly one million images in the areas of art, architecture, the humanities, and social sciences with a set of tools to view, present, and manage images for research and pedagogical purposes."
+		},
+		"Database3": {
+			"Name":"International Bibliography of Art (IBA)",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/iba/advanced?accountid=39473",
+			"Description":"The International Bibliography of Art (IBA) is the successor to the Bibliography of the History of Art (BHA). It includes the subject areas of fine arts, archaeology, museum studies, classical studies, and architecture. This resource has an international scope with over 60% of content from non-English publications. Date coverage: 2008-present."
+		}
+	},
+	"BIO": {
+		"Subject":"Biology",
+		"Librarian": {
+			"Name":"Barbara Harvey",
+			"Email":"harveyb@gvsu.edu",
+			"Phone":"(616) 331-5075",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/4572/profiles/2493/BH.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/biology",
+		"Database1": {
+			"Name":"AGRICOLA",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=agr",
+			"Description":"The National Library of Agriculture database that searches for articles and books in all areas of agriculture, forestry and animal science. 1970-present."
+		},
+		"Database2": {
+			"Name":"BIOSIS Previews (Web of Science)",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://isiknowledge.com/?DestApp=BIOSIS",
+			"Description":"BIOSIS Previews covers all areas of the life sciences. Search for articles, patents, meetings, and books. Use the citation maps feature to find out who has been citing an article. 1926-present."
+		},
+		"Database3": {
+			"Name":"PubMed",
+			"URL":"http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?otool=migrvslib",
+			"Description":"PubMed, a service of the National Library of Medicine, is a publicly available online database of biomedical and medical journal records. It includes MEDLINE content."
+		}
+	},
+	"BMS": {
+		"Subject":"Biomedical Sciences",
+		"Librarian": {
+			"Name":"Barbara Harvey",
+			"Email":"harveyb@gvsu.edu",
+			"Phone":"(616) 331-5075",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/4572/profiles/2493/BH.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/bms",
+		"Database1": {
+			"Name":"BIOSIS Previews (Web of Science)",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://isiknowledge.com/?DestApp=BIOSIS",
+			"Description":"BIOSIS Previews covers all areas of the life sciences. Search for articles, patents, meetings, and books. Use the citation maps feature to find out who has been citing an article. 1926-present."
+		},
+		"Database2": {
+			"Name":"CINAHL Complete",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=ccm",
+			"Description":"This database provides access to health science literature related to nursing and allied health disciplines. In addition, it includes standards of practice and evidence-based care guidelines."
+		},
+		"Database3": {
+			"Name":"PubMed",
+			"URL":"http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?otool=migrvslib",
+			"Description":"PubMed, a service of the National Library of Medicine, is a publicly available online database of biomedical and medical journal records. It includes MEDLINE content."
+		}
+	},
+	"BUS": {
+		"Subject":"Business",
+		"Librarian": {
+			"Name":"Cara Cadena",
+			"Email":"cadenac@gvsu.edu",
+			"Phone":"(616) 331-7337",
+			"Office":"126A DeVos",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/25804/profiles/22222/MLAphoto.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/business",
+		"Database1": {
+			"Name":"Business Souce Complete",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=bsi",
+			"Description":"Comprehensive information on all aspects of business related topics and 55 videos from the Harvard Business School Faculty Seminar Series. The database features company SWOT analyses and market research reports. Country reports are included in this database. This version of the resource is hosted on a specially designed interface for this content."
+		},
+		"Database2": {
+			"Name":"Mergent Online",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://www.mergentonline.com/compsearch.asp",
+			"Description":"Full company details, annual reports, 15 years of financials, company history, long term debt, SEC filings, country reports. Private Companies: use Private Company Search tab."
+		},
+		"Database3": {
+			"Name":"MINTEL Academic",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://academic.mintel.com",
+			"Description":"A U.K. database providing consumer market reports from Europe and the U.S. Strategies for reaching target market audiences in the following industry areas: food and drink, consumer goods, retail, finance, leisure and travel. You must register to use this database and sign in each time you use it."
+		}
+	},
+	"CMB": {
+		"Subject":"Cell and Molecular Biology",
+		"Librarian": {
+			"Name":"Barbara Harvey",
+			"Email":"harveyb@gvsu.edu",
+			"Phone":"(616) 331-5075",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/4572/profiles/2493/BH.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/cmb",
+		"Database1": {
+			"Name":"ACS Publications",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://pubs.acs.org/search/advanced",
+			"Description":"Chemistry database that searches articles from journals published by the American Chemical Society. Articles are full-text and cover all areas of chemistry. 1879-present."
+		},
+		"Database2": {
+			"Name":"BIOSIS Previews (Web of Science)",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://isiknowledge.com/?DestApp=BIOSIS",
+			"Description":"BIOSIS Previews covers all areas of the life sciences. Search for articles, patents, meetings, and books. Use the citation maps feature to find out who has been citing an article. 1926-present."
+		},
+		"Database3": {
+			"Name":"PubMed",
+			"URL":"http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?otool=migrvslib",
+			"Description":"PubMed, a service of the National Library of Medicine, is a publicly available online database of biomedical and medical journal records. It includes MEDLINE content."
+		}
+	},
+	"CHM": {
+		"Subject":"Chemistry",
+		"Librarian": {
+			"Name":"Barbara Harvey",
+			"Email":"harveyb@gvsu.edu",
+			"Phone":"(616) 331-5075",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/4572/profiles/2493/BH.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/chemistry",
+		"Database1": {
+			"Name":"ACS Publications",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://pubs.acs.org/search/advanced",
+			"Description":"Chemistry database that searches articles from journals published by the American Chemical Society. Articles are full-text and cover all areas of chemistry. 1879-present."
+		},
+		"Database2": {
+			"Name":"PubMed",
+			"URL":"http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?otool=migrvslib",
+			"Description":"PubMed, a service of the National Library of Medicine, is a publicly available online database of biomedical and medical journal records. It includes MEDLINE content."
+		},
+		"Database3": {
+			"Name":"Science Direct",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://www.sciencedirect.com/science?_ob=MiamiSearchURL&_method=requestForm&_temp=all_search.tmpl&_acct=C000057583&_version=1&_urlVersion=1&_userid=2496125&md5=8fd8e12cf00dcb9392fbf78ffb865500",
+			"Description":"Find articles, books, and reference materials in all areas of science, technology and medicine. 1823-present."
+		}
+	},
+	"COM": {
+		"Subject":"Communication Studies",
+		"Librarian": {
+			"Name":"Kim Ranger",
+			"Email":"rangerk@gvsu.edu",
+			"Phone":"(616) 331-2633",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/31/profiles/327/Kim_toondoo_Nov_2014.png"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/communications",
+		"Database1": {
+			"Name":"Communication Source",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=cms",
+			"Description":"This comprehensive Communication Studies database offers worldwide full-text content pertaining to communication, linguistics, rhetoric and discourse, speech-language pathology, media studies and related fields and includes many unique sources previously not available."
+		},
+		"Database2": {
+			"Name":"ProQuest Social Science Journals",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/socscijournals/advanced?accountid=39473",
+			"Description":"Covers a wide variety of social science topics, including addiction studies, urban studies, family studies and international relations. Includes more than 640 full text journals. Coverage is from 1994-present."
+		},
+		"Database3": {
+			"Name":"JSTOR",
+			"URL":"http://libguides.gvsu.edu/jstor",
+			"Description":"JSTOR provides the searchable full text of the backfiles of many of the core research and academic society published journals in almost all subject areas, but its emphasis is in the humanities and social sciences. The majority of JSTOR's content is academic and peer-reviewed."
+		}
+	},
+	"CIS": {
+		"Subject":"Computer Science",
+		"Librarian": {
+			"Name":"Debbie Morrow",
+			"Email":"morrowd@gvsu.edu",
+			"Phone":"(616) 331-2618",
+			"Office":"240 LIB",
+			"Photo":"http://s3.amazonaws.com/libapps/accounts/4576/profiles/2588/morrow_debbie_fauxsnap.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/cis",
+		"Database1": {
+			"Name":"ACM Digital Library",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://www.acm.org/dl/",
+			"Description":"Use this database to find computer science literature from an extensive range of journals, newsletters, and conference proceedings published or co-marketed by the Association for Computing Machinery (ACM). The ACM Digital Library contains the full text of every article ever published by ACM since its founding, from the 1950s to present."
+		},
+		"Database2": {
+			"Name":"Computer Database",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://infotrac.galegroup.com/itweb/lom_gvalleysu?db=CDB",
+			"Description":"Use this database to find computer-related product introductions, news and reviews in areas such as hardware, software, electronics, engineering, communications, and the application of technology. Contents are from 1980 to present, gathered from a wide range of newspapers, magazines, and journals on computing, information technology, and high-tech industries. Emphasis is on news and current awareness."
+		},
+		"Database3": {
+			"Name":"IEEE Xplore",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://ieeexplore.ieee.org/search/advsearch.jsp",
+			"Description":"IEEE Xplore provides access to the full text of electrical engineering, electronics, and computer science literature produced by the Institute of Electrical and Electronics Engineers (IEEE) and the Institution of Engineering and Technology (IET). The database includes the contents of journals, magazines, newsletters, conference proceedings, and IEEE standards. All content is complete from 1988 to present; some selected content dates back to 1913."
+		}
+	},
+	"CJ": {
+		"Subject":"Criminal Justice",
+		"Librarian": {
+			"Name":"Erica Millspaugh",
+			"Email":"millspae@gvsu.edu",
+			"Phone":"(616) 331-7338",
+			"Office":"128A DeVos",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/105128/profiles/96250/Erica-Portrait.gif"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/cj",
+		"Database1": {
+			"Name":"Criminal Justice Abstracts",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=cja",
+			"Description":"Comprehensive coverage of international journals, books, reports, dissertations and unpublished papers on criminology and related disciplines."
+		},
+		"Database2": {
+			"Name":"National Criminal Justice Reference Service (NCJRS)",
+			"URL":"http://www.ncjrs.gov/abstractdb/search.asp",
+			"Description":"Summaries of the more than 195,000 criminal justice, juvenile justice, and substance abuse resources housed in the NCJRS Library collection."
+		},
+		"Database3": {
+			"Name":"ProQuest Criminal Justice",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/criminaljusticeperiodicalsshell/advanced?accountid=39473",
+			"Description":"Full text indexing for 45 criminal justice journals frequently consulted by professionals, plus complete abstracts for over 100 additional criminal justice titles."
+		}
+	},
+	"DAN": {
+		"Subject":"Dance",
+		"Librarian": {
+			"Name":"Kim Ranger",
+			"Email":"rangerk@gvsu.edu",
+			"Phone":"(616) 331-2633",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/31/profiles/327/Kim_toondoo_Nov_2014.png"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/dance",
+		"Database1": {
+			"Name":"Dance in Video",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.alexanderstreet.com/daiv",
+			"Description":"Dance in Video will contain 250 dance productions and documentaries by the most influential performers and companies of the 20th century. Selections cover ballet, tap, jazz, contemporary, experimental, and improvisational dance, as well as forerunners of the forms and the pioneers of modern concert dance."
+		},
+		"Database2": {
+			"Name":"Physical Education Index",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/physicaleducationshell/advanced?accountid=39473",
+			"Description":"Subjects covered include: coaching and training, dance, fitness tests, health education, kinesiology, motor learning, physical education curricula, physical therapy, recreation, sports equipment, sports law, sports medicine, and sport sociology/psychology. Although not a full-text database, the Get it a GVSU button links smoothly to other databases when full text is available. Coverage ranges from 1970 to present and includes peer-reviewed journals, popular and trade magazines, reports, and conference proceedings."
+		},
+		"Database3": {
+			"Name":"RILM Abstracts of Music Literature",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=rih",
+			"Description":"RILM contains records in over 200 languages; entries include original-language titles, title translations in English, full bibliographic information, and abstracts in English, as well as author, journal, and in-depth subject indexes. RILM covers music and other subjects as they relate to music."
+		}
+	},
+	"EAS": {
+		"Subject":"East Asian Studies",
+		"Librarian": {
+			"Name":"Lindy Scripps-Hoekstra",
+			"Email":"scrippsl@gvsu.edu",
+			"Phone":"(616) 331-5073",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/4580/profiles/2589/updated_head_shot_cropped.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/eas",
+		"Database1": {
+			"Name":"China Academic Journals",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://eng.oversea.cnki.net/kns55/brief/result.aspx?dbPrefix=CJFD",
+			"Description":"The China Academic Journals database contains full-text articles on Chinese literature, history, and philosophy. Most articles are presented in Chinese simplified characters; although some content is in English, this database is primarily for researchers and students comfortable reading and searching in Chinese."
+		},
+		"Database2": {
+			"Name":"Columbia International Affairs Online (CIAO)",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://www.ciaonet.org/",
+			"Description":"International affairs database with working papers, journal articles, books, policy papers and more from a wide variety of sources. Most of the resources in this database are available full text."
+		},
+		"Database3": {
+			"Name":"ProQuest Asian Business and Reference",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/asianbusiness/advanced?accountid=39473",
+			"Description":"Find the latest business and financial news from the Eastern Hemisphere. Covers Asian business and financial information from key international publications."
+		}
+	},
+	"ECO": {
+		"Subject":"Economics",
+		"Librarian": {
+			"Name":"Cara Cadena",
+			"Email":"cadenac@gvsu.edu",
+			"Phone":"(616) 331-7337",
+			"Office":"126A DeVos",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/25804/profiles/22222/MLAphoto.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/economics",
+		"Database1": {
+			"Name":"ABI/INFORM Complete",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/abicomplete/advanced?accountid=39473",
+			"Description":"ABI/INFORM Complete includes all content found in ABI/INFORM Global, ABI/INFORM Dateline, and ABI/INFORM Trade and Industry. It also includes ABI/INFORM Archive, which offers a deep backfile of many of the most important business journals of the last century. Through agreements with some of the worldâ€™s most prestigious publishersâ€”including Cambridge University Press, Dow Jones & Company, Emerald Group Publishing, Dun and Bradstreet, Palgrave MacMillan, the Financial Times Group, and the Economist Intelligence Unitâ€”ProQuest provides access to hundreds of key business titles."
+		},
+		"Database2": {
+			"Name":"Business Source Complete",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=bsi",
+			"Description":"Comprehensive information on all aspects of business related topics and 55 videos from the Harvard Business School Faculty Seminar Series. The database features company SWOT analyses and market research reports. Country reports are included in this database. This version of the resource is hosted on a specially designed interface for this content."
+		},
+		"Database3": {
+			"Name":"EconLit",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/econlit/advanced?accountid=39473",
+			"Description":"Use for information on economic theory and history, monetary theory and financial institutions, labor economics, international, regional and urban economics. Includes subject indexing and abstracts of articles, books, and working papers, and subject indexing of dissertation titles."
+		}
+	},
+	"EGR": {
+		"Subject":"Engineering",
+		"Librarian": {
+			"Name":"Debbie Morrow",
+			"Email":"morrowd@gvsu.edu",
+			"Phone":"(616) 331-2618",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/4576/profiles/2588/morrow_debbie_fauxsnap.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/engineering",
+		"Database1": {
+			"Name":"Applied Science & Technology Abstracts",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=asa",
+			"Description":"Search for articles, product reviews, buyer's guides, directories, and conference proceedings. Content areas include: chemistry, computer technology, data processing, energy-related disciplines, engineering, math, and physics. 1983-present."
+		},
+		"Database2": {
+			"Name":"Knovel",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://app.knovel.com/web/",
+			"Description":"A full-text collection of leading reference handbooks and manuals in general engineering and engineering management, including interactive graphs and tables."
+		},
+		"Database3": {
+			"Name":"Science Direct",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://www.sciencedirect.com/science?_ob=MiamiSearchURL&_method=requestForm&_temp=all_search.tmpl&_acct=C000057583&_version=1&_urlVersion=1&_userid=2496125&md5=8fd8e12cf00dcb9392fbf78ffb865500",
+			"Description":"Find articles, books, and reference materials in all areas of science, technology and medicine. 1823-present."
+		}
+	},
+	"ENG": {
+		"Subject":"English",
+		"Librarian": {
+			"Name":"Hazel McClure",
+			"Email":"mcclureh@gvsu.edu",
+			"Phone":"(616) 331-3077",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/28/profiles/1818/Photo_on_2-24-14_at_11.08_AM.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/english-literature",
+		"Database1": {
+			"Name":"Linguistics and Language Behavior Abstracts (LLBA)",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/llbashell/advanced?accountid=39473",
+			"Description":"Linguistics and Language Behavior Abstracts (LLBA) contains abstracts and indexing for articles, books, and other scholarly materials related to linguistics and its sub-disciplines. Coverage is from 1973 to the present."
+		},
+		"Database2": {
+			"Name":"Literature Online",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://literature.proquest.com",
+			"Description":"Literature Online provides full-text, searchable access to a wide range of English language literary works, criticism, and reference sources. Robust searching allows users to find authors by nationality, ethnicity, movement and period."
+		},
+		"Database3": {
+			"Name":"MLA International Bibliography",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/mlaib/advanced?accountid=39473",
+			"Description":"MLA International Bibliography indexes articles, books, and other scholarship related to literature, language, linguistics and folklore. Coverage is from 1926 to the present."
+		}
+	},
+	"FRE": {
+		"Subject":"French",
+		"Librarian": {
+			"Name":"Lindy Scripps-Hoekstra",
+			"Email":"scrippsl@gvsu.edu",
+			"Phone":"(616) 331-5073",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/4580/profiles/2589/updated_head_shot_cropped.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/french",
+		"Database1": {
+			"Name":"ARTFL",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://humanities.uchicago.edu/orgs/ARTFL/?",
+			"Description":"The Project for American and French Research on the Treasury of the French Language (ARTFL) is a cooperative enterprise of the Laboratoire ATILF (Analyse et Traitement Informatique de la Langue FranÃ§aise) of the Centre National de la Recherche Scientifique (CNRS), the Division of the Humanities, and Electronic Text Services (ETS) of the University of Chicago. ARTFL consists of nearly 2000 texts, ranging from classic works of French literature to various kinds of non-fiction prose and technical writing. The eighteenth, nineteenth and twentieth centuries are about equally represented, with a smaller selection of seventeenth century texts as well as some medieval and Renaissance texts. Subjects include literary criticism, biology, history, economics, and philosophy."
+		},
+		"Database2": {
+			"Name":"Linguistics and Language Behavior Abstracts (LLBA) ",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/llbashell/advanced?accountid=39473",
+			"Description":"Linguistics and Language Behavior Abstracts (LLBA) contains abstracts and indexing for articles, books, and other scholarly materials related to linguistics and its sub-disciplines. Coverage is from 1973 to the present."
+		},
+		"Database3": {
+			"Name":"MLA International Bibliography",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/mlaib/advanced?accountid=39473",
+			"Description":"MLA International Bibliography indexes articles, books, and other scholarship related to literature, language, linguistics and folklore. Coverage is from 1926 to the present."
+		}
+	},
+	"GPY": {
+		"Subject":"Geography",
+		"Librarian": {
+			"Name":"Elizabeth Psyck",
+			"Email":"psycke@gvsu.edu",
+			"Phone":"(616) 331-8674",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/4578/profiles/2492/Psyck.jpeg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/geography",
+		"Database1": {
+			"Name":"AGRICOLA",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=agr",
+			"Description":"The National Library of Agriculture database that searches for articles and books in all areas of agriculture, forestry and animal science. 1970-present."
+		},
+		"Database2": {
+			"Name":"GeoRef",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/georef/advanced?accountid=39473",
+			"Description":"Created by the American Geological Institute, GeoRef has over 3 million references to books, journal articles, reports, theses, maps, and more. Materials cover North America from 1669 to the present, and the rest of the world from 1933 to the present."
+		},
+		"Database3": {
+			"Name":"IEEE Xplore",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://ieeexplore.ieee.org/search/advsearch.jsp",
+			"Description":"IEEE Xplore provides access to the full text of electrical engineering, electronics, and computer science literature produced by the Institute of Electrical and Electronics Engineers (IEEE) and the Institution of Engineering and Technology (IET). The database includes the contents of journals, magazines, newsletters, conference proceedings, and IEEE standards. All content is complete from 1988 to present; some selected content dates back to 1913."
+		}
+	},
+	"GEO": {
+		"Subject":"Geology",
+		"Librarian": {
+			"Name":"Elizabeth Psyck",
+			"Email":"psycke@gvsu.edu",
+			"Phone":"(616) 331-8674",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/4578/profiles/2492/Psyck.jpeg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/geology",
+		"Database1": {
+			"Name":"GeoRef",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/georef/advanced?accountid=39473",
+			"Description":"Created by the American Geological Institute, GeoRef has over 3 million references to books, journal articles, reports, theses, maps, and more. Materials cover North America from 1669 to the present, and the rest of the world from 1933 to the present."
+		},
+		"Database2": {
+			"Name":"AGRICOLA",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=agr",
+			"Description":"The National Library of Agriculture database that searches for articles and books in all areas of agriculture, forestry and animal science. 1970-present."
+		},
+		"Database3": {
+			"Name":"GreenFile",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=8gh",
+			"Description":"GreenFile searches for information in all areas related to the human impact on the environment. Some examples of topics covered: global warming, green building, pollution, sustainable agriculture, renewable energy and recycling. Information available includes articles, government information, books, and book reviews."
+		}
+	},
+	"GER": {
+		"Subject":"German",
+		"Librarian": {
+			"Name":"Bob Schoofs",
+			"Email":"schoofsr@gvsu.edu",
+			"Phone":"(616) 331-2636",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/1857/profiles/14679/Picture%202010.JPG"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/german",
+		"Database1": {
+			"Name":"JSTOR",
+			"URL":"http://libguides.gvsu.edu/jstor",
+			"Description":"JSTOR provides the searchable full text of the backfiles of many of the core research and academic society published journals in almost all subject areas, but its emphasis is in the humanities and social sciences. The majority of JSTOR's content is academic and peer-reviewed."
+		},
+		"Database2": {
+			"Name":"Linguistics and Language Behavior Abstracts (LLBA) ",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/llbashell/advanced?accountid=39473",
+			"Description":"Linguistics and Language Behavior Abstracts (LLBA) contains abstracts and indexing for articles, books, and other scholarly materials related to linguistics and its sub-disciplines. Coverage is from 1973 to the present."
+		},
+		"Database3": {
+			"Name":"Literature Online",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://literature.proquest.com",
+			"Description":"Literature Online provides full-text, searchable access to a wide range of English language literary works, criticism, and reference sources. Robust searching allows users to find authors by nationality, ethnicity, movement and period."
+		}
+	},
+	"AHS": {
+		"Subject":"Health Professions",
+		"Librarian": {
+			"Name":"Betsy Williams",
+			"Email":"williab2@gvsu.edu",
+			"Phone":"(616) 331-7306",
+			"Office":"490 CHS",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/26897/profiles/23138/LibGuides_image_Williams.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/alliedhealth",
+		"Database1": {
+			"Name":"CINAHL Complete",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=ccm",
+			"Description":"This database provides access to health science literature related to nursing and allied health disciplines. In addition, it includes standards of practice and evidence-based care guidelines."
+		},
+		"Database2": {
+			"Name":"Cochrane Library",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://www.mrw.interscience.wiley.com/cochrane/cochrane_search_fs.html",
+			"Description":"This portal allows users to search several databases containing evidence-based medical resources: Cochrane Database of Systematic Reviews, Database of Abstracts of Reviews of Effectiveness, Health Technology Assessments, and Cochrane Central Register of Controlled Trials."
+		},
+		"Database3": {
+			"Name":"PubMed",
+			"URL":"http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?otool=migrvslib",
+			"Description":"PubMed, a service of the National Library of Medicine, is a publicly available online database of biomedical and medical journal records. It includes MEDLINE content."
+		}
+	},
+	"HST": {
+		"Subject":"History",
+		"Librarian": {
+			"Name":"Bob Schoofs",
+			"Email":"schoofsr@gvsu.edu",
+			"Phone":"(616) 331-2636",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/1857/profiles/14679/Picture%202010.JPG"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/history",
+		"Database1": {
+			"Name":"America: History and Life",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=ahl",
+			"Description":"The premier database for research on the history of the United States and Canada."
+		},
+		"Database2": {
+			"Name":"Cambridge Histories Online",
+			"URL":"http://ezproxy.gvsu.edu/login?url=https://universitypublishingonline.org/cambridge/histories",
+			"Description":"Full-text access to all of the esteemed Cambridge history volumes published since 1960."
+		},
+		"Database3": {
+			"Name":"Historical Abstracts",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=hia",
+			"Description":"The premier database for researching the history of the world (excluding the United States and Canada) from 1450 to the present."
+		}
+	},
+	"HTM": {
+		"Subject":"Hospitality and Tourism Management",
+		"Librarian": {
+			"Name":"Erica Millspaugh",
+			"Email":"millspae@gvsu.edu",
+			"Phone":"(616) 331-7338",
+			"Office":"128A DeVos",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/105128/profiles/96250/Erica-Portrait.gif"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/HTM",
+		"Database1": {
+			"Name":"Hospitality & Tourism Complete",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=hjh",
+			"Description":"Covers scholarly research and industry news relating to all areas of hospitality and tourism."
+		},
+		"Database2": {
+			"Name":"Mergent Online",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://www.mergentonline.com/compsearch.asp",
+			"Description":"Full company details, annual reports, 15 years of financials, company history, long term debt, SEC filings, country reports. Private Companies: use Private Company Search tab."
+		},
+		"Database3": {
+			"Name":"MINTEL Academic",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://academic.mintel.com",
+			"Description":"A U.K. database providing consumer market reports from Europe and the U.S. Strategies for reaching target market audiences in the following industry areas: food and drink, consumer goods, retail, finance, leisure and travel. You must register to use this database and sign in each time you use it."
+		}
+	},
+	"LS": {
+		"Subject":"Legal Studies",
+		"Librarian": {
+			"Name":"Erica Millspaugh",
+			"Email":"millspae@gvsu.edu",
+			"Phone":"(616) 331-7338",
+			"Office":"128A DeVos",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/105128/profiles/96250/Erica-Portrait.gif"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/LS",
+		"Database1": {
+			"Name":"LegalTrac",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://infotrac.galegroup.com/itweb/lom_gvalleysu?db=LT",
+			"Description":"Indexing for over 1,300 titles including law reviews, legal newspapers, law specialty publications, bar association journals and law-related articles from general interest publications."
+		},
+		"Database2": {
+			"Name":"RIA Checkpoint",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://checkpoint.riag.com/login?iploc=GRVASTUN",
+			"Description":"This database is used for tax research and covers law, analysis, news, cases, and rulings."
+		},
+		"Database3": {
+			"Name":"Westlaw",
+			"URL":"http://ezproxy.gvsu.edu/login?url=https://1.next.westlaw.com/Search/Home.html?rs=IWLN1.0&vr=3.0&sp=002039805-2100&forcecdn=false&bhskip=1",
+			"Description":"Covers state and federal case law and statutes and regulations, the Code of Federal Regulations. Federal Register, American Jurisprudence 2nd, American Law Reports and law reviews."
+		}
+	},
+	"LIB": {
+		"Subject":"Liberal Studies",
+		"Librarian": {
+			"Name":"Bob Schoofs",
+			"Email":"schoofsr@gvsu.edu",
+			"Phone":"(616) 331-2636",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/1857/profiles/14679/Picture%202010.JPG"
+		},
+		"SubjectGuide":"",
+		"Database1": {
+			"Name":"Academic Search Premier",
+			"URL":"http://libguides.gvsu.edu/asp",
+			"Description":"Academic Search Premier is a giant database that covers more than 8,000 journals, 85% of which are peer-reviewed and over 55% are full text, and full text for nearly 3,900 peer-reviewed titles. It covers a wide variety of disciplines."
+		},
+		"Database2": {
+			"Name":"Humanities Abstracts and Retrospective",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=hma,hmr",
+			"Description":"Provides indexing for journals covering fields such as archaeology, area studies, art, classical studies, communications, dance, film, folklore, gender studies, history, journalism, linguistics, literary and social criticism, literature, music, performing arts, philosophy, religion, and theology. Coverage is from 1907-present."
+		},
+		"Database3": {
+			"Name":"JSTOR",
+			"URL":"http://libguides.gvsu.edu/jstor",
+			"Description":"JSTOR provides the searchable full text of the backfiles of many of the core research and academic society published journals in almost all subject areas, but its emphasis is in the humanities and social sciences. The majority of JSTOR's content is academic and peer-reviewed."
+		}
+	},
+	"MTH": {
+		"Subject":"Mathematics",
+		"Librarian": {
+			"Name":"Debbie Morrow",
+			"Email":"morrowd@gvsu.edu",
+			"Phone":"(616) 331-2618",
+			"Office":"240 LIB",
+			"Photo":"http://s3.amazonaws.com/libapps/accounts/4576/profiles/2588/morrow_debbie_fauxsnap.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/math",
+		"Database1": {
+			"Name":"JSTOR",
+			"URL":"http://libguides.gvsu.edu/jstor",
+			"Description":"JSTOR provides the searchable full text of the backfiles of many of the core research and academic society published journals in almost all subject areas, but its emphasis is in the humanities and social sciences. The majority of JSTOR's content is academic and peer-reviewed."
+		},
+		"Database2": {
+			"Name":"MathSciNet",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://www.ams.org/mathscinet/search",
+			"Description":"Use this database to explore contributions to mathematical research from 1940 to the present. MathSciNet contains summaries of articles and reviews of books gathered from publications of the American Mathematical Society."
+		},
+		"Database3": {
+			"Name":"Web of Science",
+			"URL":"http://libguides.gvsu.edu/wos",
+			"Description":"Web of Science is a multidisciplinary resource that allows you to search multiple databases at once, including: Web of Science (Core Collection), Current Contents Connect, BIOSIS Previews, MEDLINE, and Journal Citation Reports. Find journal articles, books, conference proceedings, reports, and tables of contents."
+		}
+	},
+	"MUS": {
+		"Subject":"Music",
+		"Librarian": {
+			"Name":"Kim Ranger",
+			"Email":"rangerk@gvsu.edu",
+			"Phone":"(616) 331-2633",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/31/profiles/327/Kim_toondoo_Nov_2014.png"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/music",
+		"Database1": {
+			"Name":"International Index to Music Periodicals",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/iimp/advanced?accountid=39473",
+			"Description":"IMP covers all aspects of music, including genre, music education, performance, ethnomusicology, musical theatre, theory, popular music forms, and composition in both scholarly and popular music journals."
+		},
+		"Database2": {
+			"Name":"Naxos Music Library",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://gvsu.NaxosMusicLibrary.com/homepage.asp",
+			"Description":"20 concurrent users allowed: please Log-Out when finished. Includes Classical, Jazz, Blues, World, Folk, & Chinese music, notes on the works, biographical info on composers & musicians, & the CD insert."
+		},
+		"Database3": {
+			"Name":"Oxford Music Online",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://www.oxfordmusiconline.com/subscriber/advanced_search",
+			"Description":"Encyclopedias include the complete The New Grove Dictionary of Music and Musicians, The New Grove Dictionary of Opera, & The New Grove Dictionary of Jazz."
+		}
+	},
+	"NUR": {
+		"Subject":"Nursing",
+		"Librarian": {
+			"Name":"Valeria Long",
+			"Email":"longv@gvsu.edu",
+			"Phone":"(616) 331-7335",
+			"Office":"490 CHS",
+			"Photo":"http://s3.amazonaws.com/libapps/accounts/4574/profiles/14681/Me_better_photo.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/nursing",
+		"Database1": {
+			"Name":"CINAHL Complete",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=ccm",
+			"Description":"This database provides access to health science literature related to nursing and allied health disciplines. In addition, it includes standards of practice and evidence-based care guidelines."
+		},
+		"Database2": {
+			"Name":"Cochrane Library",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://www.mrw.interscience.wiley.com/cochrane/cochrane_search_fs.html",
+			"Description":"This portal allows users to search several databases containing evidence-based medical resources: Cochrane Database of Systematic Reviews, Database of Abstracts of Reviews of Effectiveness, Health Technology Assessments, and Cochrane Central Register of Controlled Trials."
+		},
+		"Database3": {
+			"Name":"Nursing Resource Center",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://infotrac.galegroup.com/itweb/lom_gvalleysu?db=NRC",
+			"Description":"Contains disease and drug overviews, care plans, relevant journal results and animated anatomy and physiology diagrams to complement the core encyclopedia texts."
+		}
+	},
+	"PHI": {
+		"Subject":"Philosophy",
+		"Librarian": {
+			"Name":"Bob Schoofs",
+			"Email":"schoofsr@gvsu.edu",
+			"Phone":"(616) 331-2636",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/1857/profiles/14679/Picture%202010.JPG"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/philosophy",
+		"Database1": {
+			"Name":"Cambridge Companions",
+			"URL":"http://ezproxy.gvsu.edu/login?url=https://universitypublishingonline.org/cambridge/companions/",
+			"Description":"The Cambridge Companions is a collection of full-text, scholarly reviewed essay anthologies on a range of topics in literature, the classics, philosophy, culture and religion. The collection is best for searching on particular authors, movements, eras and works."
+		},
+		"Database2": {
+			"Name":"Cambridge Histories Online",
+			"URL":"http://ezproxy.gvsu.edu/login?url=https://universitypublishingonline.org/cambridge/histories",
+			"Description":"Full-text access to all of the esteemed Cambridge history volumes published since 1960."
+		},
+		"Database3": {
+			"Name":"Philosopher's Index",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/philosophersindex/advanced?accountid=39473",
+			"Description":"Philosopher's Index is the premier database for scholarly research in all areas of philosophy."
+		}
+	},
+	"CPH": {
+		"Subject":"Photography",
+		"Librarian": {
+			"Name":"Kim Ranger",
+			"Email":"rangerk@gvsu.edu",
+			"Phone":"(616) 331-2633",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/31/profiles/327/Kim_toondoo_Nov_2014.png"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/photography",
+		"Database1": {
+			"Name":"Art Abstracts and Retrospective",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=aax,air",
+			"Description":"Art Full Text and Retrospective indexes more than 500 worldwide publications covering the fine, decorative and commercial arts, crafts and media as far back as 1929."
+		},
+		"Database2": {
+			"Name":"Biography Index Past and Present",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=bit",
+			"Description":"Biography Index covers articles, books, and autobiographies for biographical subjects from antiquity to the present; includes individual and collective biographies from all fields and nationalities. Indexing coverage is from 1984 to the present."
+		},
+		"Database3": {
+			"Name":"Worldcat",
+			"URL":"http://www.worldcat.org/",
+			"Description":"WorldCat connects you to the collections and services of more than 10,000 libraries worldwide."
+		}
+	},
+	"PT": {
+		"Subject":"Physical Therapy",
+		"Librarian": {
+			"Name":"Betsy Williams",
+			"Email":"williab2@gvsu.edu",
+			"Phone":"(616) 331-7306",
+			"Office":"490 CHS",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/26897/profiles/23138/LibGuides_image_Williams.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/pt",
+		"Database1": {
+			"Name":"Access Physiotherapy",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://accessphysiotherapy.mhmedical.com/",
+			"Description":"Access Physiotherapy from McGraw-Hill Medical is devoted exclusively to the study, instruction, and practice of physical therapy â€“ with groundbreaking content for todayâ€™s PT. Updated regularly, this comprehensive online physiotherapy resource integrates leading physical therapy textbooks, procedure and exercise videos, image galleries, self-assessment tools, and a unique cadaver dissection tool â€“optimized for viewing on any device."
+		},
+		"Database2": {
+			"Name":"CINAHL Complete",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=ccm",
+			"Description":"This database provides access to health science literature related to nursing and allied health disciplines. In addition, it includes standards of practice and evidence-based care guidelines."
+		},
+		"Database3": {
+			"Name":"Cochrane Library",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://www.mrw.interscience.wiley.com/cochrane/cochrane_search_fs.html",
+			"Description":"This portal allows users to search several databases containing evidence-based medical resources: Cochrane Database of Systematic Reviews, Database of Abstracts of Reviews of Effectiveness, Health Technology Assessments, and Cochrane Central Register of Controlled Trials."
+		}
+	},
+	"PHY": {
+		"Subject":"Physics",
+		"Librarian": {
+			"Name":"Barbara Harvey",
+			"Email":"harveyb@gvsu.edu",
+			"Phone":"(616) 331-5075",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/4572/profiles/2493/BH.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/physics",
+		"Database1": {
+			"Name":"ADS (Astrophysics Data System)",
+			"URL":"http://adswww.harvard.edu/",
+			"Description":"This database, funded by NASA, searches for information about astronomy, astrophysics, instrumentation, physics, and geophysics. Users can search for articles, books, conference proceedings and pre-prints (the author's version of an article before it goes through peer-review)."
+		},
+		"Database2": {
+			"Name":"MathSciNet",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://www.ams.org/mathscinet/search",
+			"Description":"Use this database to explore contributions to mathematical research from 1940 to the present. MathSciNet contains summaries of articles and reviews of books gathered from publications of the American Mathematical Society."
+		},
+		"Database3": {
+			"Name":"SpringerLink",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://link.springer.com/",
+			"Description":"SpringerLink allows Grand Valley users full-text access to over 1700 journals in subjects including science, technology, humanities and law. Search the entire database or within subject collections or by publication type (which includes journal articles, reference entries, and books.)"
+		}
+	},
+	"PSY": {
+		"Subject":"Psychology",
+		"Librarian": {
+			"Name":"Gayle Schaub",
+			"Email":"schaubg@gvsu.edu",
+			"Phone":"(616) 331-2629",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/32/profiles/14692/Compressed_Headshot.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/psych",
+		"Database1": {
+			"Name":"ProQuest Psychology Journals",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/psychologyshell/advanced?accountid=39473",
+			"Description":"ProQuest Psychology Journals provides abstracts and indexing for more than 710 titles, with over 570 titles available in full text."
+		},
+		"Database2": {
+			"Name":"PsycARTICLES",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/psycarticles/advanced?accountid=39473",
+			"Description":"PsycARTICLES helps you to find full-text, peer-reviewed articles in journals published by the American Psychological Association and allied organizations. It covers general psychology and specialized basic, applied, clinical, and theoretical research in psychology back to 1894. You may also search PsycInfo for these articles, as all information from PsycArticles is duplicated there."
+		},
+		"Database3": {
+			"Name":"PsycINFO",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/psycinfo/advanced?accountid=39473",
+			"Description":"PsycINFO, produced by the American Psychological Association, provides access to journal articles, book chapters, books, dissertations, reports, and other documents from all over the world in both English and foreign languages in the field of psychology and related disciplines such as education, criminology, psychiatry, social work, medicine, and law, back to 1887."
+		}
+	},
+	"SW": {
+		"Subject":"Social Work",
+		"Librarian": {
+			"Name":"Ashley Rosener",
+			"Email":"rosenera@gvsu.edu",
+			"Phone":"(616) 331-5937",
+			"Office":"130A DEV",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/4579/profiles/14693/ashleytaylor.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/socialwork",
+		"Database1": {
+			"Name":"Social Sciences Citation Index",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://isiknowledge.com/?DestApp=WOS&editions=SSCI",
+			"Description":"Find journal articles in the social sciences. Over 50 different subject areas covered including: anthropology, history, law, philosophy, political science, psychology, and social work. Use the citation maps feature to find out who has been citing an article. 1956-present."
+		},
+		"Database2": {
+			"Name":"Social Services Abstracts",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/socialservicesshell/advanced?accountid=39473",
+			"Description":"Features research focused on social work, human services, and related areas, including social welfare, social policy, and community development. Includes records for journal articles, dissertations, and citations to book reviews from 1980 to present."
+		},
+		"Database3": {
+			"Name":"Social Work Abstracts",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=swh",
+			"Description":"Contains information on the fields of social work and human services (including theory and practice) and social issues and problems from 1977 to present."
+		}
+	},
+	"SOC": {
+		"Subject":"Sociology",
+		"Librarian": {
+			"Name":"Gayle Schaub",
+			"Email":"schaubg@gvsu.edu",
+			"Phone":"(616) 331-2629",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/32/profiles/14692/Compressed_Headshot.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/soc",
+		"Database1": {
+			"Name":"Social Sciences Citation Index",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://isiknowledge.com/?DestApp=WOS&editions=SSCI",
+			"Description":"Find journal articles in the social sciences. Over 50 different subject areas covered including: anthropology, history, law, philosophy, political science, psychology, and social work. Use the citation maps feature to find out who has been citing an article. 1956-present."
+		},
+		"Database2": {
+			"Name":"Social Services Abstracts",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/socialservicesshell/advanced?accountid=39473",
+			"Description":"Features research focused on social work, human services, and related areas, including social welfare, social policy, and community development. Includes records for journal articles, dissertations, and citations to book reviews from 1980 to present."
+		},
+		"Database3": {
+			"Name":"Social Work Abstracts",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=swh",
+			"Description":"Contains information on the fields of social work and human services (including theory and practice) and social issues and problems from 1977 to present."
+		}
+	},
+	"SPA": {
+		"Subject":"Spanish",
+		"Librarian": {
+			"Name":"Lindy Scripps-Hoekstra",
+			"Email":"scrippsl@gvsu.edu",
+			"Phone":"(616) 331-5073",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/4580/profiles/2589/updated_head_shot_cropped.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/spanish",
+		"Database1": {
+			"Name":"InfoTrac Newsstand",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://infotrac.galegroup.com/itweb/lom_gvalleysu?db=STND",
+			"Description":"Search full text newspapers from the U.S. and around the world"
+		},
+		"Database2": {
+			"Name":"JSTOR",
+			"URL":"http://libguides.gvsu.edu/jstor",
+			"Description":"JSTOR provides the searchable full text of the backfiles of many of the core research and academic society published journals in almost all subject areas, but its emphasis is in the humanities and social sciences. The majority of JSTOR's content is academic and peer-reviewed."
+		},
+		"Database3": {
+			"Name":"MLA International Bibliography",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/mlaib/advanced?accountid=39473",
+			"Description":"MLA International Bibliography indexes articles, books, and other scholarship related to literature, language, linguistics and folklore. Coverage is from 1926 to the present."
+		}
+	},
+	"STA": {
+		"Subject":"Statistics",
+		"Librarian": {
+			"Name":"Debbie Morrow",
+			"Email":"morrowd@gvsu.edu",
+			"Phone":"(616) 331-2618",
+			"Office":"240 LIB",
+			"Photo":"http://s3.amazonaws.com/libapps/accounts/4576/profiles/2588/morrow_debbie_fauxsnap.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/statistics",
+		"Database1": {
+			"Name":"MathSciNet",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://www.ams.org/mathscinet/search",
+			"Description":"Use this database to explore contributions to mathematical research from 1940 to the present. MathSciNet contains summaries of articles and reviews of books gathered from publications of the American Mathematical Society."
+		},
+		"Database2": {
+			"Name":"Web of Science",
+			"URL":"http://libguides.gvsu.edu/wos",
+			"Description":"Web of Science is a multidisciplinary resource that allows you to search multiple databases at once, including: Web of Science (Core Collection), Current Contents Connect, BIOSIS Previews, MEDLINE, and Journal Citation Reports. Find journal articles, books, conference proceedings, reports, and tables of contents."
+		},
+		"Database3": {
+			"Name":"SpringerLink",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://link.springer.com/",
+			"Description":"SpringerLink allows Grand Valley users full-text access to over 1700 journals in subjects including science, technology, humanities and law. Search the entire database or within subject collections or by publication type (which includes journal articles, reference entries, and books.)"
+		}
+	},
+	"WGS": {
+		"Subject":"Women, Gender, and Sexuality Studies",
+		"Librarian": {
+			"Name":"Gayle Schaub",
+			"Email":"schaubg@gvsu.edu",
+			"Phone":"(616) 331-2629",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/32/profiles/14692/Compressed_Headshot.jpg"
+		},
+		"SubjectGuide":"",
+		"Database1": {
+			"Name":"Gender Studies Database",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=fmh",
+			"Description":"Gender Studies Database covers the full spectrum of gender-related scholarship. Includes full-text and scholarly articles."
+		},
+		"Database2": {
+			"Name":"GenderWatch",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/genderwatch/advanced?accountid=39473",
+			"Description":"Provides authoritative historical and current perspectives on the evolution of gender roles as they affect both men and women."
+		},
+		"Database3": {
+			"Name":"Archives of Human Sexuality and Gender: LGBTQ History and Culture Since 1940",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://gdc.galegroup.com/gdc/artemis/?u=lom_gvalleysu&p=AHSI",
+			"Description":"This resource brings together approximately 1.5 million pages of primary source content on social, political, health, and legal issues impacting LGBTQ communities around the world, including the gay rights movement, activism, the HIV/Aids crisis, and more. Documents are sourced from top libraries and archives like Canadian Lesbian and Gay Archives, GLBT Historical Society, New York Public Library, Lesbian Herstory Educational Foundation, Inc., and others."
+		}
+	},
+	"WRT": {
+		"Subject":"Writing",
+		"Librarian": {
+			"Name":"Hazel McClure",
+			"Email":"mcclureh@gvsu.edu",
+			"Phone":"(616) 331-3077",
+			"Office":"240 LIB",
+			"Photo":"https://s3.amazonaws.com/libapps/accounts/28/profiles/1818/Photo_on_2-24-14_at_11.08_AM.jpg"
+		},
+		"SubjectGuide":"http://libguides.gvsu.edu/writing",
+		"Database1": {
+			"Name":"CompPile",
+			"URL":"http://comppile.org/",
+			"Description":"CompPile (at Texas A&M-Corpus Christi) is an ongoing inventory of publications in post-secondary composition, rhetoric, ESL, and technical writing: 1939-1999. It is free to the public for nonprofit use; use for profit, however, requires permission."
+		},
+		"Database2": {
+			"Name":"Literature Online",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://literature.proquest.com",
+			"Description":"Literature Online provides full-text, searchable access to a wide range of English language literary works, criticism, and reference sources. Robust searching allows users to find authors by nationality, ethnicity, movement and period."
+		},
+		"Database3": {
+			"Name":"MLA International Bibliography",
+			"URL":"http://ezproxy.gvsu.edu/login?url=http://search.proquest.com/mlaib/advanced?accountid=39473",
+			"Description":"MLA International Bibliography indexes articles, books, and other scholarship related to literature, language, linguistics and folklore. Coverage is from 1926 to the present."
+		}
+	}
+}

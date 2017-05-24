@@ -1,35 +1,49 @@
-export function itemsHasErrored(bool) {
+export function dataHasErrored(bool) {
     return {
-        type: 'ITEMS_HAS_ERRORED',
+        type: 'DATA_HAS_ERRORED',
         hasErrored: bool
     };
 }
-export function itemsIsLoading(bool) {
+export function dataIsLoading(bool) {
     return {
-        type: 'ITEMS_IS_LOADING',
+        type: 'DATA_IS_LOADING',
         isLoading: bool
     };
 }
-export function itemsFetchDataSuccess(items) {
+export function libraryDataFetchSuccess(data) {
     return {
-        type: 'ITEMS_FETCH_DATA_SUCCESS',
-        items
+        type: 'LIBRARY_DATA_FETCH_SUCCESS',
+        data
     };
 }
 
-export function itemsFetchData(url) {
+export function libraryDataFetch(url) {
     return (dispatch) => {
-        dispatch(itemsIsLoading(true));
+        dispatch(dataIsLoading(true));
         fetch(url)
             .then((response) => {
                 if (!response.ok) {
                     throw Error(response.statusText);
                 }
-                dispatch(itemsIsLoading(false));
+                dispatch(dataIsLoading(false));
                 return response;
             })
             .then((response) => response.json())
-            .then((items) => dispatch(itemsFetchDataSuccess(items)))
-            .catch(() => dispatch(itemsHasErrored(true)));
+            .then((data) => dispatch(libraryDataFetchSuccess(data)))
+            .catch(() => dispatch(dataHasErrored(true)));
     };
+}
+
+export function search(term) {
+    return {
+        type: 'TERM_SEARCHED',
+        search: term
+    }
+}
+
+export function selected(subject){
+    return {
+        type: 'SUBJECT_SELECTED',
+        selected: subject
+    }
 }
