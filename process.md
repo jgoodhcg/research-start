@@ -30,3 +30,14 @@ As a security feature it seems browsers enforce that javascript Fetch api or XML
 ## Accessiblity
 **Keybaord Navigation** is something that callMall has been [focusing on](https://github.com/callemall/material-ui/issues/61) in material ui since 2014
 **Alternative text** was put in important navigation and interactive elements
+
+## Search
+- fuse
+- searches everything
+
+## Routing
+
+## Todo
+- refactor into more components
+    - render calls are ugly in routes
+- maybe don't use combine reducers (i like reframe's approach two whole state all the time)

@@ -8,9 +8,14 @@ import { List, ListItem } from 'material-ui/List';
 import * as _ from 'lodash';
 import Divider from 'material-ui/Divider';
 import FlatButton from 'material-ui/FlatButton';
+import { BrowserRouter, Route, Link } from 'react-router-dom'
 import './../App.css';
 
 class App extends Component {
+    constructor(){
+        super()
+        this.state = {}
+    }
     componentDidMount() {
         this.props.fetchData('researchstart.json');
     }
@@ -22,64 +27,88 @@ class App extends Component {
             return <p>Loading…</p>;
         }
         return (
-            <div className="app-container">
-                <AppBar
-                    iconElementLeft={<div>GVSU</div>}
-                    title="Research Start"
-                />
-                <div className="content" style={{ padding: "0.5em" }}>
-                    <Card>
-                        <div className="search-container"
-                            style={{
-                                display: 'flex',
-                                flexWrap: "nowrap",
-                                alignItems: "center"
-                            }}>
-                            <i
-                                className="material-icons"
-                                style={{ margin: "0.3em" }}>
-                                search</i>
-                            <TextField
-                                alt="subject_search_field"
-                                hintText="Search Subject"
-                                onChange={(e, val) => { this.props.search(val) }} />
-                            <FlatButton
-                                icon={<i className="material-icons">arrow_forward</i>}
-                                onClick={(e) => { this.props.makeSelection() }} />
-                        </div>
-                    </Card>
-                    <Card style={{ marginTop: "0.5em" }}>
-                        <List alt="subject_list">
-                            {_(this.props.visibleSubjects)
-                                .map((sub) => {
-                                    return (
-                                        <div key={sub.Code} >
-                                            <ListItem
-                                                alt={"click_for_" + sub.Code + "_info"}
-                                                primaryText={sub.Code}
-                                                secondaryText={<p>{sub.Subject}</p>}
-                                                secondaryTextLines={2}
-                                                onClick={(e) => { this.props.makeSelection(sub.Code) }}
-                                            />
-                                            <Divider />
-                                        </div>
-                                    )
-                                })
-                                .value()
-                            }
-                        </List>
-                    </Card>
-                </div>
 
-            </div>
+            <BrowserRouter>
+                <div className="app-container">
+                    <AppBar
+                        iconElementLeft={<div>GVSU</div>}
+                        title="Research Start"
+                    />
+                    <Route exact path="/" render={props => {
+                        return (
+                            <div className="content" style={{ padding: "0.5em" }}>
+                                <Card>
+                                    <div className="search-container"
+                                        style={{
+                                            display: 'flex',
+                                            flexWrap: "nowrap",
+                                            alignItems: "center"
+                                        }}>
+                                        <i
+                                            className="material-icons"
+                                            style={{ margin: "0.3em" }}>
+                                            search</i>
+                                        <TextField
+                                            alt="subject_search_field"
+                                            hintText="Search Subject"
+                                            onChange={(e, val) => { this.props.search(val) }} />
+                                    </div>
+                                </Card>
+                                <Card style={{ marginTop: "0.5em" }}>
+                                    <List alt="subject_list">
+                                        {_(this.props.visibleSubjects)
+                                            .map((sub) => {
+                                                return (
+                                                    <div key={sub.Code} >
+                                                        <ListItem
+                                                            alt={"click_for_" + sub.Code + "_info"}
+                                                            primaryText={sub.Code}
+                                                            secondaryText={<p>{sub.Subject}</p>}
+                                                            secondaryTextLines={2}
+                                                            onClick={(e) => {
+                                                                this.props.makeSelection(sub.Code)
+                                                                props.history.push("/" + sub.Code)
+                                                            }}
+                                                        />
+                                                        <Divider />
+                                                    </div>
+                                                )
+                                            })
+                                            .value()
+                                        }
+                                    </List>
+                                </Card>
+                            </div>
+                        )
+                    }} />
+                    <Route path="/:code" render={props => {
+                        let code = props.match.params.code
+                        this.state.code = code; // local component state see componentDidUpdate()
+
+
+                        return (
+                            <div> {code} </div>
+                        )
+                    }} />
+                </div >
+
+            </BrowserRouter>
         );
     }
+    componentDidUpdate(prevProps, prevState) {
+        let code = prevState.code,
+            selected = (code === this.props.selected.Code)
+
+        if (!selected && this.props.hasLoaded) { this.props.makeSelection(code) }
+    }
 }
+
 const mapStateToProps = (state) => {
     return {
         data: state.libraryData,
         hasErrored: state.dataHasErrored,
         isLoading: state.dataIsLoading,
+        hasLoaded: state.dataHasLoaded,
         selected: state.selected,
         visibleSubjects: state.visibleSubjects
     };
