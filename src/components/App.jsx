@@ -85,7 +85,7 @@ class App extends Component {
                         )
                     }} />
                     <Route path="/:code" render={props => {
-                        let code = props.match.params.code,
+                        let code = props.match.params.code.toUpperCase(),
                             selected = this.props.selected,
                             numberOfKeys = _(selected).keys().value().length
 
