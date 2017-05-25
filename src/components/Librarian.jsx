@@ -32,7 +32,7 @@ class Librarian extends Component {
         return (
             <Card expanded={this.state.expanded} onExpandChange={this.handleExpandChange}>
                 <CardHeader
-                    alt={code + "_librarian_details"}
+                    alt={code + "_librarian_details_click_for_more"}
                     title={librarian.Name}
                     subtitle="Librarian"
                     avatar={librarian.Photo}
@@ -40,7 +40,7 @@ class Librarian extends Component {
                     showExpandableButton={true}
                 />
                 <CardText expandable>
-                    <List>
+                    <List >
                         <ListItem
                             leftIcon={<i className="material-icons">email</i>}
                             primaryText={librarian.Email}
