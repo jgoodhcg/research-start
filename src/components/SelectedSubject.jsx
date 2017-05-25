@@ -17,6 +17,7 @@ class SelectedSubject extends Component {
                         subtitleColor="white"
                     />
                     <FlatButton
+                        alt={subject.Code + "_guide"}
                         label="Guide"
                         href={subject.SubjectGuide}
                         fullWidth
@@ -27,6 +28,7 @@ class SelectedSubject extends Component {
 
                 <Card>
                     <CardHeader
+                        alt={subject.Code + "_librarian_details"}
                         title={subject.Librarian.Name}
                         subtitle="Librarian"
                         avatar={subject.Librarian.Photo}
