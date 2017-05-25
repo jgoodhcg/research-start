@@ -93,9 +93,10 @@ export function makeSelection(code = "") {
     return (dispatch, getState) => {
         let state = getState(),
             data = state.libraryData,
+            match = data[code] || {},
             visible = state.visibleSubjects,
             selection = (code !== "" ?
-                Object.assign({}, data[code], { Code: code }) :
+                Object.assign( match, { Code: code }) :
                 Object.assign({}, visible[0]))
 
         dispatch(selected(selection))

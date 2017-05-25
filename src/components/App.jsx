@@ -9,10 +9,12 @@ import * as _ from 'lodash';
 import Divider from 'material-ui/Divider';
 import FlatButton from 'material-ui/FlatButton';
 import { BrowserRouter, Route, Link } from 'react-router-dom'
+import SelectedSubject from './SelectedSubject'
+import ErrorPage from './ErrorPage'
 import './../App.css';
 
 class App extends Component {
-    constructor(){
+    constructor() {
         super()
         this.state = {}
     }
@@ -82,13 +84,19 @@ class App extends Component {
                         )
                     }} />
                     <Route path="/:code" render={props => {
-                        let code = props.match.params.code
+                        let code = props.match.params.code,
+                            selected = this.props.selected,
+                            numberOfKeys = _(selected).keys().value().length
+
                         this.state.code = code; // local component state see componentDidUpdate()
 
+                        console.log({numberOfKeys, selected})
 
-                        return (
-                            <div> {code} </div>
-                        )
+                        if (numberOfKeys > 1) {
+                            return (<SelectedSubject subject={this.props.selected} />)
+                        } else {
+                            return (<ErrorPage subject={this.props.selected} />)
+                        }
                     }} />
                 </div >
 
@@ -96,6 +104,11 @@ class App extends Component {
         );
     }
     componentDidUpdate(prevProps, prevState) {
+        // for fresh requests to a specific subject route
+        // this will make a selection and update state after the data has loaded
+        // when the request isn't a valid code then the selected object in the 
+        // state will only have one key/val {Code: requestedSubject}
+        // its up to the component to render the error
         let code = prevState.code,
             selected = (code === this.props.selected.Code)
 
