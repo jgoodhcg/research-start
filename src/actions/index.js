@@ -47,13 +47,6 @@ export function setVisibleSubjects(subjects) {
     }
 }
 
-export function setSearchTerm(term){
-    return {
-        type: 'SET_SEARCH_TERM',
-        searchTerm: term
-    }
-}
-
 export function search(term) {
     return (dispatch, getState) => {
         let state = getState(),
@@ -85,7 +78,6 @@ export function search(term) {
         // search modifies the data structure slightly so it is called on data load
         // TODO factor out data restructuring into other init actions
 
-        dispatch(setSearchTerm(term))
         dispatch(setVisibleSubjects(result))
     }
 }
