@@ -64,7 +64,7 @@ export function search(term) {
                 keys: [
                     "Code",
                     "Subject",
-                    "Library.Name",
+                    "Librarian.Name",
                     "Database1.Name",
                     "Database2.Name",
                     "Database3.Name"
