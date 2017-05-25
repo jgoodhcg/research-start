@@ -33,8 +33,9 @@ class App extends Component {
             <BrowserRouter>
                 <div className="app-container">
                     <AppBar
-                        iconElementLeft={<div>GVSU</div>}
+                        iconElementLeft={<img style={{width: "2em"}} src="/logo.png"/>}
                         title="Research Start"
+                        style={{backgroundColor: "#0065a4"}}
                     />
                     <Route exact path="/" render={props => {
                         return (
@@ -66,7 +67,7 @@ class App extends Component {
                                                             alt={"click_for_" + sub.Code + "_info"}
                                                             primaryText={sub.Code}
                                                             secondaryText={<p>{sub.Subject}</p>}
-                                                            secondaryTextLines={2}
+                                                            secondaryTextLines={1}
                                                             onClick={(e) => {
                                                                 this.props.makeSelection(sub.Code)
                                                                 props.history.push("/" + sub.Code)
@@ -89,8 +90,6 @@ class App extends Component {
                             numberOfKeys = _(selected).keys().value().length
 
                         this.state.code = code; // local component state see componentDidUpdate()
-
-                        console.log({numberOfKeys, selected})
 
                         if (numberOfKeys > 1) {
                             return (<SelectedSubject subject={this.props.selected} />)
