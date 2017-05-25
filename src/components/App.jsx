@@ -7,6 +7,7 @@ import AppBar from 'material-ui/AppBar';
 import { List, ListItem } from 'material-ui/List';
 import * as _ from 'lodash';
 import Divider from 'material-ui/Divider';
+import FlatButton from 'material-ui/FlatButton';
 import './../App.css';
 
 class App extends Component {
@@ -28,25 +29,35 @@ class App extends Component {
                 />
                 <div className="content" style={{ padding: "0.5em" }}>
                     <Card>
-                        <i className="material-icons">search</i>
-                        <TextField
-                            alt="subject_search_feild"
-                            hintText="Search Subject"
-                            onChange={(e, val)=>{this.props.search(val)}} />
+                        <div className="search-container"
+                            style={{
+                                display: 'flex',
+                                flexWrap: "nowrap",
+                                alignItems: "center"
+                            }}>
+                            <i
+                                className="material-icons"
+                                style={{ margin: "0.3em" }}>
+                                search</i>
+                            <TextField
+                                alt="subject_search_field"
+                                hintText="Search Subject"
+                                onChange={(e, val) => { this.props.search(val) }} />
+                            <FlatButton
+                                icon={<i className="material-icons">arrow_forward</i>}
+                                onClick={(e) => { }} />
+                        </div>
                     </Card>
                     <Card style={{ marginTop: "0.5em" }}>
                         <List alt="subject_list">
-                            {_(this.props.data)
-                                .keys()
-                                .sortBy()
+                            {_(this.props.visibleSubjects)
                                 .map((sub) => {
-                                    let fullSub = this.props.data[sub]
                                     return (
-                                        <div key={sub} >
+                                        <div key={sub.Code} >
                                             <ListItem
-                                                alt={"click_for_" + sub + "_info"}
-                                                primaryText={sub}
-                                                secondaryText={<p>{fullSub.Subject}</p>}
+                                                alt={"click_for_" + sub.Code + "_info"}
+                                                primaryText={sub.Code}
+                                                secondaryText={<p>{sub.Subject}</p>}
                                                 secondaryTextLines={2}
                                             />
                                             <Divider />
@@ -68,8 +79,8 @@ const mapStateToProps = (state) => {
         data: state.libraryData,
         hasErrored: state.dataHasErrored,
         isLoading: state.dataIsLoading,
-        search: state.search,
-        selected: state.selected
+        selected: state.selected,
+        visibleSubjects: state.visibleSubjects
     };
 };
 const mapDispatchToProps = (dispatch) => {
