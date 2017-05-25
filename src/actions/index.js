@@ -47,6 +47,13 @@ export function setVisibleSubjects(subjects) {
     }
 }
 
+export function setSearchTerm(term){
+    return {
+        type: 'SET_SEARCH_TERM',
+        searchTerm: term
+    }
+}
+
 export function search(term) {
     return (dispatch, getState) => {
         let state = getState(),
@@ -71,8 +78,14 @@ export function search(term) {
                 ]
             },
             fuse = new Fuse(searchableData, options),
-            result = (term !== "" ? fuse.search(term) : _.sortBy(searchableData, sub => sub.Code))
+            result = (term !== "" ?
+                fuse.search(term) :
+                _.sortBy(searchableData, sub => sub.Code))
+        // ternary for a blank search term is to provide a default of the full list in alphabetical order
+        // search modifies the data structure slightly so it is called on data load
+        // TODO factor out data restructuring into other init actions
 
+        dispatch(setSearchTerm(term))
         dispatch(setVisibleSubjects(result))
     }
 }
@@ -81,5 +94,18 @@ export function selected(subject) {
     return {
         type: 'SUBJECT_SELECTED',
         selected: subject
+    }
+}
+
+export function makeSelection(code = "") {
+    return (dispatch, getState) => {
+        let state = getState(),
+            data = state.libraryData,
+            visible = state.visibleSubjects,
+            selection = (code !== "" ?
+                Object.assign({}, data[code], { Code: code }) :
+                Object.assign({}, visible[0]))
+
+        dispatch(selected(selection))
     }
 }

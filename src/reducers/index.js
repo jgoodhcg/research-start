@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 import { libraryData, dataHasErrored, dataIsLoading } from './libraryData';
-import { search } from './search';
+import { searchTerm } from './searchTerm';
 import { selected } from './selected';
 import { visibleSubjects } from './visibleSubjects';
 
@@ -8,7 +8,7 @@ const rootReducer = combineReducers({
     libraryData,
     dataHasErrored,
     dataIsLoading,
-    search,
+    searchTerm,
     selected,
     visibleSubjects
 });

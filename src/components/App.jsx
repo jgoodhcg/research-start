@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { libraryDataFetch, search } from '../actions/';
+import { libraryDataFetch, search, makeSelection } from '../actions/';
 import TextField from 'material-ui/TextField';
 import Card from 'material-ui/Card';
 import AppBar from 'material-ui/AppBar';
@@ -45,7 +45,7 @@ class App extends Component {
                                 onChange={(e, val) => { this.props.search(val) }} />
                             <FlatButton
                                 icon={<i className="material-icons">arrow_forward</i>}
-                                onClick={(e) => { }} />
+                                onClick={(e) => { this.props.makeSelection() }} />
                         </div>
                     </Card>
                     <Card style={{ marginTop: "0.5em" }}>
@@ -59,6 +59,7 @@ class App extends Component {
                                                 primaryText={sub.Code}
                                                 secondaryText={<p>{sub.Subject}</p>}
                                                 secondaryTextLines={2}
+                                                onClick={(e) => { this.props.makeSelection(sub.Code) }}
                                             />
                                             <Divider />
                                         </div>
@@ -86,7 +87,8 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
     return {
         fetchData: (url) => dispatch(libraryDataFetch(url)),
-        search: (term) => dispatch(search(term))
+        search: (term) => dispatch(search(term)),
+        makeSelection: (code) => dispatch(makeSelection(code))
     };
 };
 export default connect(mapStateToProps, mapDispatchToProps)(App);
