@@ -3,6 +3,7 @@ import { Card, CardActions, CardHeader, CardMedia, CardTitle, CardText } from 'm
 import FlatButton from 'material-ui/FlatButton';
 import IconButton from 'material-ui/IconButton';
 import Database from './Database'
+import Librarian from './Librarian'
 
 class SelectedSubject extends Component {
     render() {
@@ -22,20 +23,11 @@ class SelectedSubject extends Component {
                         href={subject.SubjectGuide}
                         fullWidth
                         backgroundColor="#0065a4"
+                        labelStyle={{color: "white"}}
                     />
 
                 </Card>
-
-                <Card>
-                    <CardHeader
-                        alt={subject.Code + "_librarian_details"}
-                        title={subject.Librarian.Name}
-                        subtitle="Librarian"
-                        avatar={subject.Librarian.Photo}
-                        actAsExpander={true}
-                        showExpandableButton={true}
-                    />
-                </Card>
+                <Librarian librarian={subject.Librarian} code={subject.Code}/>
                 <Database db={subject.Database1} />
                 <Database db={subject.Database2} />
                 <Database db={subject.Database3} />
