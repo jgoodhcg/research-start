@@ -32,12 +32,21 @@ As a security feature it seems browsers enforce that javascript Fetch api or XML
 **Alternative text** was put in important navigation and interactive elements
 
 ## Search
-- fuse
-- searches everything
+- [fuse.js](http://fusejs.io/)
+- searches nearly all of fields in data
+This was super simple and fit right into a thunk
 
 ## Routing
+- [react router v4](https://reacttraining.com/react-router/web/guides/quick-start)
+The hard part was figuring out how to do parameters for subjects. The code should work as a url param even on an intial request. The way that I did the component selection is sort of messy. It takes the code from the url then sticks it on the component state. When the component updates on data load success it makes the selection call. Rendering the selected subject component on the route requires conditions be met. Part of that condition is that the selected subject in the state is valid. That validity is determined by number of keys. If the data wasn't loaded or the subject from the params didn't exist the selected subject object would just be a {Code: "whatever"} object. Not as neat as I want it.
+
 
 ## Todo
 - refactor into more components
     - render calls are ugly in routes
 - maybe don't use combine reducers (i like reframe's approach two whole state all the time)
+- selected subject database
+    - make an expandable card like librarian
+    - show some of description until expanded
+    - full width flatbutton for navigating to
+- links on logo and title 
